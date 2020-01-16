@@ -1,5 +1,6 @@
 ﻿using System;
-using operations;
+
+
 using Add;
 
 using Divide;
@@ -14,12 +15,13 @@ using CubeNumber;
 
 using Subtract;
 
-namespace BasicCalculator
+namespace BasicCalculatorTests
 {
-    public class Calculator
+    public class Calculator1
+
 
     {
-        public class Calculator : IAdd, IDivide, IMultiply, ISquareNumber, ICube, ISquareRoot, ISubtract
+        public class ICalculator : IAdd, IDivide, IMultiply, ISquareNumber, ICube, ISquareRoot, ISubtract
 
         {
 
@@ -114,4 +116,5 @@ namespace BasicCalculator
             }
 
         }
+    }
 }
